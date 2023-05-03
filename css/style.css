@@ -9,6 +9,16 @@
     margin-top: 6px;
     margin-left: 6px;
 }
+.list a{
+    text-align: center;
+}
+.list:hover{
+    background-color: #37523d;
+    transition: .5s;
+}
+.list a:hover{
+    color: #fff;
+}
 li{
     display: block;
     text-align: center;
@@ -28,13 +38,6 @@ a{
 }
 li a:hover{
     color: #fff;
-}
-ul >.list{
-    display: none;
-}
-ul:hover > .list{
-    display: block;
-    transition: 1s;
 }
 .main{
     display: flex;
